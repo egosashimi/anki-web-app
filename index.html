@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="app-version" content="__BUILD__">
+  <title>Flashcards</title>
+  <meta name="description" content="Minimal, offline spaced-repetition flashcards. Anki compatible. All data stays on your device.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0c0d" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Flashcards">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar" id="topbar"><div class="left"></div><h1></h1><div class="right"></div></header>
+    <main id="main"></main>
+    <nav class="tabs" id="tabs" aria-label="Main"></nav>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:24px">This app needs JavaScript.</p></noscript>
+</body>
+</html>

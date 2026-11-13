@@ -1,0 +1,10 @@
+{
+  "name": "flashcards",
+  "private": true,
+  "type": "module",
+  "description": "Minimal offline spaced-repetition flashcards (Anki compatible) as a PWA.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "python3 -m http.server 8080"
+  }
+}
